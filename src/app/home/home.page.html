@@ -30,7 +30,7 @@
       </ion-col>
     </ion-row>
     <ion-row>
-      <ion-col *ngfor ="let produto of listaProdutos">
+      <ion-col *ngFor="let produto of listaProdutos">
         <ion-card>
           <div class="imagem">
             <img src="https://picsum.photos/320/260?random=3" width="100%" alt="Produto exemplo" />
@@ -46,38 +46,7 @@
           </ion-card-content>
         </ion-card>
       </ion-col>
-      <ion-col>
-        <ion-card>
-          <div class="imagem">
-            <img src="https://picsum.photos/320/260?random=3" width="100%" alt="Produto exemplo" />
-          </div>
-          <ion-card-header>
-            <ion-card-title>Produto 1</ion-card-title>
-            <ion-card-subtitle>Marca</ion-card-subtitle>
-          </ion-card-header>
-          <ion-card-content>
-            <p>R$ 2,50</p>
-            <ion-button expand="block" color="primary" class="ion-margin-top">Adicionar <ion-icon slot="end"
-                name="cart"></ion-icon></ion-button>
-          </ion-card-content>
-        </ion-card>
-      </ion-col>
-      <ion-col>
-        <ion-card>
-          <div class="imagem">
-            <img src="https://picsum.photos/320/260?random=3" width="100%" alt="Produto exemplo" />
-          </div>
-          <ion-card-header>
-            <ion-card-title>Produto 1</ion-card-title>
-            <ion-card-subtitle>Marca</ion-card-subtitle>
-          </ion-card-header>
-          <ion-card-content>
-            <p>R$ 2,50</p>
-            <ion-button expand="block" color="primary" class="ion-margin-top">Adicionar <ion-icon slot="end"
-                name="cart"></ion-icon></ion-button>
-          </ion-card-content>
-        </ion-card>
-      </ion-col>
+      
     </ion-row>
   </ion-grid>
 </ion-content>
